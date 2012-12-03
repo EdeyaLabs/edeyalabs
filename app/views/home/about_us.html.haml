@@ -1,0 +1,33 @@
+.hero.hero-small
+  .container
+    %h1.hero-headline=t 'about.main_headline'
+    %h2.hero-subheadline=t 'about.main_subheadline'
+
+.doc-section
+  .container
+    .four.columns.alpha
+      %ul.sidebar-nav
+        %li= link_to "About EdeyaLabs", about_us_path
+        %li= link_to "Meet the Team", team_path
+        %li= link_to "Our Methods", methods_path
+
+    .twelve.columns.omega
+      %h2.lite=t 'about.headline'
+      %p=t 'about.subheadline'
+
+      .six.columns.alpha
+        %h3.lite=t 'about.first_headline'
+        %p=t 'about.first_text'
+
+      .six.columns.alpha
+        %h3.lite=t 'about.second_headline'
+        %p=t 'about.second_text'
+
+      .six.columns.alpha
+        %h3.lite=t 'about.third_headline'
+        %p=t 'about.third_text'
+
+      .six.columns.alpha
+        %h3.lite=t 'about.fourth_headline'
+        %p=t 'about.fourth_text'
+        

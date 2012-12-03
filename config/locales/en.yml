@@ -14,3 +14,27 @@ en:
   email_headline: Email us
   email_text: hello@edeyalabs.com
   discuss: Let's discuss about your project
+
+  about:
+    main_headline: Big Ideas, Small Team
+    main_subheadline: We like to keep it small and personal.
+    headline: About us headline
+    subheadline: About us text
+    first_headline: Oppa
+    first_text: Woop
+    second_headline: Gangnam
+    second_text: Woop
+    third_headline: Style!
+    third_text: Woop
+    fourth_headline: Woop!
+    fourth_text: Eeeeeey.
+
+  team:
+    headline: Meet the team.
+    subheadline: Subheadline.
+    harry_headline: Harry Arbasa
+    harry_text: Project Lead
+    vince_headline: Vincent Paca
+    vince_text: Coder
+    harvey_headline: Harvey Enrile
+    harvey_text: Front-end Designer

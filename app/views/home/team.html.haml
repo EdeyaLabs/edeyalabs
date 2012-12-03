@@ -1,0 +1,40 @@
+.hero.hero-small
+  .container
+    %h1.hero-headline=t 'about.main_headline'
+    %h2.hero-subheadline=t 'about.main_subheadline'
+
+.doc-section
+  .container
+    .four.columns.alpha
+      %ul.sidebar-nav
+        %li= link_to "About EdeyaLabs", about_us_path
+        %li= link_to "Meet the Team", team_path
+        %li= link_to "Our Methods", methods_path
+
+    .twelve.columns.omega
+      %h2.lite=t 'team.headline'
+      %p=t 'team.subheadline'
+
+      .six.columns.alpha
+        .doc-section-mini
+          .thumbnail
+            = image_tag('harry.jpg')
+          .team-desc
+            %h3=t 'team.harry_headline'
+            %p=t 'team.harry_text'
+
+      .six.columns.alpha
+        .doc-section-mini
+          .thumbnail
+            = image_tag('vince.jpg')
+          .team-desc
+            %h3=t 'team.vince_headline'
+            %p=t 'team.vince_text'
+
+      .six.columns.alpha
+        .doc-section-mini
+          .thumbnail
+            = image_tag('harvey.jpg')
+          .team-desc
+            %h3=t 'team.harvey_headline'
+            %p=t 'team.harvey_text'
