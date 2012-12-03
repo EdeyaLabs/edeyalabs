@@ -1,5 +1,16 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  main_headline: We provide handcrafter solutions to your business
+  sub_headline: Sub headline here. Something catchy.
+  first_col_headline: Design Strategies
+  first_col_text: Something here.
+  second_col_headline: User Experience
+  second_col_text: Something here.
+  third_col_headline: Custom Applications
+  third_col_text: Something here.
+  wwd: What we can do for you
+  wwd_text: Cha cha cha, cha cha cha cha cha cha!
+  call_headline: Let's Talk!
+  call_text: Call us at (032) NO-LANDLINE
+  email_headline: Email us
+  email_text: hello@edeyalabs.com
+  discuss: Let's discuss about your project

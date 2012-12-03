@@ -1,1 +1,39 @@
-WELCOME
+.hero
+  .container
+    %h1.hero-headline=t 'main_headline'
+    %h2.hero-subheadline=t 'sub_headline'
+
+.doc-section.home-features
+  .container
+    .one-third.column.alpha
+      .home-feature-item
+        .icon-home.icon-bulb
+        %h3=t 'first_col_headline'
+        %p=t 'first_col_text'
+
+    .one-third.column
+      .home-feature-item
+        .icon-home.icon-smiley
+        %h3=t 'second_col_headline'
+        %p=t 'second_col_text'
+
+    .one-third.column
+      .home-feature-item
+        .icon-home.icon-cloud-up
+        %h3=t 'third_col_headline'
+        %p=t 'third_col_text'
+
+
+.doc-section
+  .container
+    .ten.columns.alpha
+      %h2.lite=t 'wwd'
+      %p=t 'wwd_text'
+
+      = link_to t('discuss'), nil, :class => "btn primary"
+
+    .five.columns.offset-by-one.omega
+      %h3=t 'call_headline'
+      %p=t 'call_text'
+      %h3=t 'email_headline'
+      %p=t 'email_text'
