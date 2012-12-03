@@ -5,6 +5,12 @@ class HomeController < ApplicationController
   def about_us
   end
 
+  def team
+  end
+
+  def methods
+  end
+
   def services
   end
 
