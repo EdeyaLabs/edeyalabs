@@ -1,40 +1,41 @@
 en:
-  main_headline: We provide handcrafter solutions to your business
-  sub_headline: Sub headline here. Something catchy.
-  first_col_headline: Design Strategies
-  first_col_text: Something here.
-  second_col_headline: User Experience
-  second_col_text: Something here.
-  third_col_headline: Custom Applications
-  third_col_text: Something here.
-  wwd: What we can do for you
-  wwd_text: Cha cha cha, cha cha cha cha cha cha!
-  call_headline: Let's Talk!
-  call_text: Call us at (032) NO-LANDLINE
-  email_headline: Email us
-  email_text: hello@edeyalabs.com
-  discuss: Let's discuss about your project
+  home:
+    main_headline: Powerful Yet Simple Web Apps
+    sub_headline: We build easy-to-use and powerful web applications. May it be a web product or an application to automate your business process, we're your guys.
+    first_col_headline: We're Agile
+    first_col_text: We use lean methodologies for our development process and SCRUM for project management. We're all about agility on delivering your projects on time and at reasonable cost.
+    second_col_headline: We're User Experience Junkies
+    second_col_text: We love to design simple and easy-to-use applications. The process to achieve that, however, is not easy at all. We go through a process of design studios, wire framing, prototyping and usability testing - all of these to keep things simple for you.
+    third_col_headline: We're Socially Aware
+    third_col_text: People are talking and sharing on Facebook, Twitter and all other social platforms. Leverage the people's nature to socialize by equipping your website with the right social components that allows you to connect with your customers. That's word of mouth...on steroids!
+    wwd: What Can We Do For You?
+    wwd_text: 
+    call_headline: Call us
+    call_text: Call us at (032) NO-LANDLINE
+    email_headline: Email us
+    email_text: hello@edeyalabs.com
+    discuss: Talk To Us Now
 
   about:
-    main_headline: Big Ideas, Small Team
-    main_subheadline: We like to keep it small and personal.
-    headline: About us headline
-    subheadline: About us text
-    first_headline: Oppa
-    first_text: Woop
-    second_headline: Gangnam
-    second_text: Woop
-    third_headline: Style!
-    third_text: Woop
-    fourth_headline: Woop!
-    fourth_text: Eeeeeey.
+    main_headline: Ideas and Execution
+    main_subheadline: That's what we're all about!
+    headline: We're BIG on EXECUTION!
+    subheadline: We're a web design and development shop based in Cebu City, Philippines. Our focus is on building powerful and easy-to-use web and social applications using Ruby on Rails. We execute using agile methodologies and collaborate with our clients to deliver killer apps and conversion-focused websites.
+    first_headline: Lean Startup
+    first_text: Are you a startup building your product? Or an enterprise looking to automate your business processes? We can help you build highly usable web applications focused customers and user development.
+    second_headline: SCRUM Project Management
+    second_text: From the process, to collaboration and the tools that we use, we follow the SCRUM methodology. SCRUM's transparency keeps you updated and involved in the progress of your project allowing you to make better decisions on other aspects of your business.
+    third_headline: User Experience
+    third_text: 
+    fourth_headline: Beautiful and Apt Designs
+    fourth_text: We get the design direction from our customers and provide suggestions if necessary. We are creative, proactive and very good listeners - perfect ingredient for creating great designs.
 
   team:
     headline: Meet the team.
-    subheadline: Subheadline.
+    subheadline: We work hard and we party a little harder. We're entrepreneurs by day and rockstar wannabes whenever we can. We play any type of music and at least one of us still dreams of being in a rock band and playing around the world. Talk to us and find out who.
     harry_headline: Harry Arbasa
-    harry_text: Project Lead
+    harry_text: Project Lead/Drums
     vince_headline: Vincent Paca
-    vince_text: Coder
+    vince_text: Coder/Guitars and Vox
     harvey_headline: Harvey Enrile
-    harvey_text: Front-end Designer
+    harvey_text: Designer/Guitars
