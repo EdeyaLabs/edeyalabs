@@ -6,11 +6,8 @@
 .doc-section
   .container
     .four.columns.alpha
-      %ul.sidebar-nav
-        %li= link_to "About EdeyaLabs", about_us_path
-        %li= link_to "Meet the Team", team_path
-        %li= link_to "Our Methods", methods_path
-
+      = render 'about_sidebar'
+      
     .twelve.columns.omega
       %h2.lite=t 'team.headline'
       %p=t 'team.subheadline'
