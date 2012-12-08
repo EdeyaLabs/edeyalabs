@@ -1,4 +1,6 @@
 en:
+  phone_number: (032) 000-0000
+  email: hello@edeyalabs.com
   home:
     main_headline: Powerful Yet Simple Web Apps
     sub_headline: We build easy-to-use and powerful web applications. May it be a web product or an application to automate your business process, we're your guys.
@@ -39,3 +41,17 @@ en:
     vince_text: Coder/Guitars and Vox
     harvey_headline: Harvey Enrile
     harvey_text: Designer/Guitars
+
+  services:
+    headline:
+    subheadline:
+    main_text:
+    sub_text:
+    first:
+    first_text:
+    second:
+    second_text:
+    third:
+    third_text:
+    contact_header:
+    contact_text:
