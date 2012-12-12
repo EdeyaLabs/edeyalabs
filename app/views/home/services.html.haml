@@ -1,23 +1,15 @@
 .hero.hero-small
   .container
     %h1.hero-headline=t 'services.headline'
-    %h2.hero-subheadline=t 'services.subheadline'
 
 .doc-section
   .container
-    %h2.lite=t 'services.main_text'
-    %p=t 'services.sub_text'
-
-    .doc-section.service-items
-      .one-third.column.alpha
-        %h3.lite=t 'services.first'
-        %p=t 'services.first_text'
-      .one-third.column
-        %h3.lite=t 'services.second'
-        %p=t 'services.second_text'
-      .one-thid.column.omega
-        %h3.lite=t 'services.third'
-        %p=t 'services.third_text'
+    .eight.columns.alpha
+      %h2.lite=t 'services.first'
+      %p=t 'services.first_text'
+    .eight.columns.alpha
+      %h2.lite=t 'services.second'
+      %p=t 'services.second_text'
 
   .doc-section
     .container
@@ -30,3 +22,21 @@
           .four.columns.omega
             %p= "Call us at #{t('phone_number')}"
             %p=t 'email'
+
+.doc-section
+  .container
+    %h2.lite=t 'services.social'
+    %p=t 'services.social_first'
+    %p=t 'services.social_second'
+
+.doc-section
+  .container
+    .contact-banner.clearfix
+      .container
+        .twelve.columns.alpha
+          %h3=t 'services.second_contact_header'
+          %p=t 'services.second_contact_text'
+
+        .four.columns.omega
+          %p= "Call us at #{t('phone_number')}"
+          %p=t 'email'

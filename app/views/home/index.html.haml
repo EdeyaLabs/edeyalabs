@@ -29,7 +29,7 @@
     .ten.columns.alpha
       %h2.lite=t 'home.wwd'
 
-      = link_to t('home.discuss'), nil, :class => "btn primary"
+      = mail_to "hello@edeyalabs.com", t('home.discuss'), :class => "btn primary"
 
     .five.columns.offset-by-one.omega
       %h3.lite=t 'home.call_headline'

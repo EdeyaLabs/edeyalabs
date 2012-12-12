@@ -1,5 +1,5 @@
 en:
-  phone_number: (032) 000-0000
+  phone_number: +63923 522 5772
   email: hello@edeyalabs.com
   home:
     main_headline: Powerful Yet Simple Web Apps
@@ -41,15 +41,18 @@ en:
     harvey_text: Designer/Guitars
 
   services:
-    headline:
+    headline: Ruby on Rails Development
     subheadline:
-    main_text:
+    main_text: We build powerful and easy-to-use web applications
     sub_text:
-    first:
-    first_text:
-    second:
-    second_text:
-    third:
-    third_text:
-    contact_header:
-    contact_text:
+    first: For Startups
+    first_text: Having a great idea is just half of the equation; the other half is execution, and a lot of startups fail because of poor execution. That’s where we come in - execution! As startups ourselves, we are very familiar of the hardships and challenges of turning your ideas into a product that your customers want to use. Using lean startup methodologies, we can help you build your minimum viable product and collaborate with you on the succeeding iterations basing on your customer’s feedback.
+    second: For Enterprise
+    second_text: Process is key to the success of any organization. Companies spend millions just to automate and streamline their business process. If you see some bottlenecks on your current process that have negative impacts on your company’s productivity and ability to generate sales, let us know. We can help you build custom tools like customer management (CRM), support system, company intranet, and more that can help improve your team’s productivity and process.
+    contact_header: Find  out how we can help build you app
+    contact_text: Drop us an email or give us a call.
+    social: We build social-focused websites
+    social_first: Any type of business, local or online, needs a website to reach its target customers. If you’re a local business and you still don’t have a website, time to get a new one. If you’re an online business and is still stuck with a static website, time to get social. 
+    social_second: We specialize in adding a social layer to websites that leverages on the virality of social networking platforms like Facebook, Twitter, Foursquare, etc. Leverage the people’s innate nature to socialize by equipping your website with social components that allows your customers to easily share your product.
+    second_contact_header: Find out how we can help bring more customers to your business.
+    second_contact_text: Give us a call and let's talk!
