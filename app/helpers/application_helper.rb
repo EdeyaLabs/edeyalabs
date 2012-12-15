@@ -8,4 +8,19 @@ module ApplicationHelper
     
     js.html_safe
   end
+
+  def load_cdn_assets
+    assets = ""
+    Settings.static_assets.each do |asset|
+      if asset["public_id"].include? ".js"
+        assets += "<script src='#{asset["url"]}' type='text/javascript'></script>"
+      end
+
+      if asset["public_id"].include? ".css"
+        assets += "<link href='#{asset["url"]}' media='all' rel='stylesheet' type='text/css'>"
+      end
+    end
+
+    assets.html_safe
+  end
 end
