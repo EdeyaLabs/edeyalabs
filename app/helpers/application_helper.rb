@@ -5,7 +5,26 @@ module ApplicationHelper
     g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.identify people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1})(document,window.mixpanel||[]);
     mixpanel.init("9d2f7da64bd8cc43a0a28631c438b439");</script><!-- end Mixpanel -->
     JS
-    
+
+    js.html_safe
+  end
+
+  def ga_js
+    js = <<-JS
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37157263-1']);
+      _gaq.push(['_setDomainName', 'edeyalabs.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    JS
+
     js.html_safe
   end
 end
