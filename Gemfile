@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'haml-rails'
 gem 'cloudinary'
+gem 'ledermann-rails-settings', :require => 'rails-settings'
 
 group :development do
   gem 'sqlite3'
