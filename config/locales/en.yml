@@ -35,10 +35,13 @@ en:
     subheadline: We work hard and we party a little harder. We're entrepreneurs by day and rockstar wannabes whenever we can. We play any type of music and at least one of us still dreams of being in a rock band and playing around the world. Talk to us and find out who.
     harry_headline: Harry Arbasa
     harry_text: Project Lead/Drums
+    harry_desc: Harry specializes in product development from writing business plans, translating business requirements into functional requirements, product positioning, product marketing, and support. Aside from product management, Harry also has project management under his belt. Using Agile SCRUM methodologies, he has helped manage and deliver web projects.
     vince_headline: Vincent Paca
+    vince_desc: Vince is the hacker in the team. He codes on multiple programming languages with a preference in Ruby. He has developed several projects on different spaces from enterprise to toy applications. He enjoys reading a good book and a cold beer. More on the beer though.
     vince_text: Coder/Guitars and Vox
     harvey_headline: Harvey Enrile
     harvey_text: Designer/Guitars
+    harvey_desc: Harvey is the team's go-to-guy when it comes to design. His design experience ranges from simple websites to full-blown web applications that require extensive prototyping and usability testing to achieve a seamless user experience flow.
 
   services:
     headline: Ruby on Rails Development

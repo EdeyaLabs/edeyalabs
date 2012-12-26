@@ -7,26 +7,31 @@
   .container
     .four.columns.alpha
       = render 'about_sidebar'
-      
+
     .twelve.columns.omega
       %h2.lite=t 'team.headline'
       %p=t 'team.subheadline'
 
-      .six.columns.alpha
-        .doc-section-mini
-          .thumbnail
-            = image_tag('harry.jpg')
-          .team-desc
-            %h3=t 'team.harry_headline'
-            %p=t 'team.harry_text'
+      .clearfix
+        .six.columns.alpha
+          .doc-section-mini
+            .thumbnail
+              = image_tag('harry.jpg')
+            .team-desc
+              %h3=t 'team.harry_headline'
+              %p
+                %strong=t 'team.harry_text'
+              %p=t 'team.harry_desc'
 
-      .six.columns.alpha
-        .doc-section-mini
-          .thumbnail
-            = image_tag('vince.jpg')
-          .team-desc
-            %h3=t 'team.vince_headline'
-            %p=t 'team.vince_text'
+        .six.columns.omega
+          .doc-section-mini
+            .thumbnail
+              = image_tag('vince.jpg')
+            .team-desc
+              %h3=t 'team.vince_headline'
+              %p
+                %strong=t 'team.vince_text'
+              %p=t 'team.vince_desc'
 
       .six.columns.alpha
         .doc-section-mini
@@ -34,4 +39,6 @@
             = image_tag('harvey.jpg')
           .team-desc
             %h3=t 'team.harvey_headline'
-            %p=t 'team.harvey_text'
+            %p
+              %strong=t 'team.harvey_text'
+            %p=t 'team.harvey_desc'
