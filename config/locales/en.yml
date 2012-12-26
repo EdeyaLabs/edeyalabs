@@ -59,3 +59,17 @@ en:
     social_second: We specialize in adding a social layer to websites that leverages on the virality of social networking platforms like Facebook, Twitter, Foursquare, etc. Leverage the people’s innate nature to socialize by equipping your website with social components that allows your customers to easily share your product.
     second_contact_header: Find out how we can help bring more customers to your business.
     second_contact_text: Give us a call and let's talk!
+
+  methods:
+    first: Meet & Greet
+    first_text: Just like any relationship, ours will also start with an introduction. Here we get to know each other and how we can work together. Most importantly, we'll get to know more about your project, timeline, and cost.
+    second: Writing User Stories
+    second_text: Once both parties have signed off on the scope of work, our next step is to break down the specifications you provided into user stories. By writing them in stories, you get transparency and visibility on the progress of each feature of your project.
+    third: Kickoff
+    third_text: After we're done writing the user stories, we kick off the project. We'll talk about milestones, deliverables, roles, and key dates.
+    fourth: Wireframing and Prototyping
+    fourth_text: The first milestone is the presentation of the wireframe or prototype depending on agreement. This allows you to get an early view of what your product will look like at the soonest possible time. This allows you to provide feedback that are critical to building an application according to your specifications.
+    fifth: Design, Development, Testing
+    fifth_text: Using agile methodologies, backend development actually starts right after kick-off. The full-blown development though starts once we have the final flow based on the presented wireframe.
+    sixth: Release
+    sixth_text: Once all milestones are achieved and deliverables delivered, we'll turn over the application to you along with the necessary documentations and other agreed deliverables.
