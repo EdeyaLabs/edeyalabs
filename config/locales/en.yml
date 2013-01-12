@@ -1,75 +1,10 @@
 en:
-  phone_number: +63923 522 5772
-  email: hello@edeyalabs.com
-  home:
-    main_headline: Powerful Yet Simple Web Apps
-    sub_headline: We build easy-to-use and powerful web applications. May it be a web product or an application to automate your business process, we're your guys.
-    first_col_headline: We're Agile
-    first_col_text: We use lean methodologies for our development process and SCRUM for project management. We're all about agility on delivering your projects on time and at reasonable cost.
-    second_col_headline: We're UX Junkies
-    second_col_text: We love to design simple and easy-to-use applications. The process to achieve that, however, is not easy at all - design studio, wireframing, prototyping, and usability testing... we do all of these to keep things simple for you.
-    third_col_headline: We're Socially Aware
-    third_col_text: People are talking and sharing on Facebook, Twitter, Foursquare, and all these other social platforms. Leverage the people’s nature to socialize by equipping your website with social components that allows your customers to share your product with their connections. That’s word of mouth... on steroids.
-    wwd: What Can We Do For You?
-    wwd_text:
-    call_headline: Call us
-    email_headline: Email us
-    discuss: Talk To Us Now
-
-  about:
-    main_headline: Ideas and Execution
-    main_subheadline: That's what we're all about!
-    headline: We're BIG on EXECUTION!
-    subheadline: We're a web design and development shop based in Cebu City, Philippines. Our focus is on building powerful and easy-to-use web and social applications using Ruby on Rails. We execute using agile methodologies and collaborate with our clients to deliver killer apps and conversion-focused websites.
-    first_headline: Lean Startup
-    first_text: Are you a startup building your product? Or an enterprise looking to automate your business processes? We can help you build highly usable web applications focused customers and user development.
-    second_headline: SCRUM Project Management
-    second_text: From the process, to collaboration and the tools that we use, we follow the SCRUM methodology. SCRUM's transparency keeps you updated and involved in the progress of your project allowing you to make better decisions on other aspects of your business.
-    third_headline: User Experience
-    third_text: Beautiful design catches your user’s attention, but your ability to retain them is all dependent on user experience. We understand this that’s why we go through great lengths to keep web apps simple and easy to use.
-    fourth_headline: Beautiful and Apt Designs
-    fourth_text: We get the design direction from our customers and provide suggestions if necessary. We are creative, proactive and very good listeners - perfect ingredient for creating great designs.
-
-  team:
-    headline: Meet the team.
-    subheadline: We work hard and we party a little harder. We're entrepreneurs by day and rockstar wannabes whenever we can. We play any type of music and at least one of us still dreams of being in a rock band and playing around the world. Talk to us and find out who.
-    harry_headline: Harry Arbasa
-    harry_text: Project Lead/Drums
-    harry_desc: Harry specializes in product development from writing business plans, translating business requirements into functional requirements, product positioning, product marketing, and support. Aside from product management, Harry also has project management under his belt. Using Agile SCRUM methodologies, he has helped manage and deliver web projects.
-    vince_headline: Vincent Paca
-    vince_desc: Vince is the hacker in the team. He codes on multiple programming languages with a preference in Ruby. He has developed several projects on different spaces from enterprise to toy applications. He enjoys reading a good book and a cold beer. More on the beer though.
-    vince_text: Coder/Guitars and Vox
-    harvey_headline: Harvey Enrile
-    harvey_text: Designer/Guitars
-    harvey_desc: Harvey is the team's go-to-guy when it comes to design. His design experience ranges from simple websites to full-blown web applications that require extensive prototyping and usability testing to achieve a seamless user experience flow.
-
-  services:
-    headline: Ruby on Rails Development
-    subheadline:
-    main_text: We build powerful and easy-to-use web applications
-    sub_text:
-    first: For Startups
-    first_text: Having a great idea is just half of the equation; the other half is execution, and a lot of startups fail because of poor execution. That’s where we come in - execution! As startups ourselves, we are very familiar of the hardships and challenges of turning your ideas into a product that your customers want to use. Using lean startup methodologies, we can help you build your minimum viable product and collaborate with you on the succeeding iterations basing on your customer’s feedback.
-    second: For Enterprise
-    second_text: Process is key to the success of any organization. Companies spend millions just to automate and streamline their business process. If you see some bottlenecks on your current process that have negative impacts on your company’s productivity and ability to generate sales, let us know. We can help you build custom tools like customer management (CRM), support system, company intranet, and more that can help improve your team’s productivity and process.
-    contact_header: Find  out how we can help bring more customers to your business.
-    contact_text: Drop us an email or give us a call.
-    social: We build social-focused websites
-    social_first: Any type of business, local or online, needs a website to reach its target customers. If you’re a local business and you still don’t have a website, time to get a new one. If you’re an online business and is still stuck with a static website, time to get social.
-    social_second: We specialize in adding a social layer to websites that leverages on the virality of social networking platforms like Facebook, Twitter, Foursquare, etc. Leverage the people’s innate nature to socialize by equipping your website with social components that allows your customers to easily share your product.
-    second_contact_header: Find out how we can help bring more customers to your business.
-    second_contact_text: Give us a call and let's talk!
-
-  methods:
-    first: Meet & Greet
-    first_text: Just like any relationship, ours will also start with an introduction. Here we get to know each other and how we can work together. Most importantly, we'll get to know more about your project, timeline, and cost.
-    second: Writing User Stories
-    second_text: Once both parties have signed off on the scope of work, our next step is to break down the specifications you provided into user stories. By writing them in stories, you get transparency and visibility on the progress of each feature of your project.
-    third: Kickoff
-    third_text: After we're done writing the user stories, we kick off the project. We'll talk about milestones, deliverables, roles, and key dates.
-    fourth: Wireframing and Prototyping
-    fourth_text: The first milestone is the presentation of the wireframe or prototype depending on agreement. This allows you to get an early view of what your product will look like at the soonest possible time. This allows you to provide feedback that are critical to building an application according to your specifications.
-    fifth: Design, Development, Testing
-    fifth_text: Using agile methodologies, backend development actually starts right after kick-off. The full-blown development though starts once we have the final flow based on the presented wireframe.
-    sixth: Release
-    sixth_text: Once all milestones are achieved and deliverables delivered, we'll turn over the application to you along with the necessary documentations and other agreed deliverables.
+  tag_line: More than just ideas
+  about: About us
+  about_sub: Get to know us better
+  process: Our Process
+  process_sub: This is how we work
+  projects: Projects
+  projects_sub: What we do
+  contact: Contact us
+  contact_sub: Get in touch
