@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121215170107) do
+ActiveRecord::Schema.define(:version => 20130112075458) do
 
   create_table "settings", :force => true do |t|
     t.string   "var",                       :null => false
