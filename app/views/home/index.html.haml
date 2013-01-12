@@ -1,38 +1,16 @@
-.hero
-  .container
-    %h1.hero-headline=t 'home.main_headline'
-    %h2.hero-subheadline=t 'home.sub_headline'
+.container
+  = render 'nav'
 
-.doc-section.home-features
-  .container
-    .one-third.column.alpha
-      .home-feature-item
-        .icon-home.icon-bulb
-        %h3=t 'home.first_col_headline'
-        %p=t 'home.first_col_text'
+.color-burst
 
-    .one-third.column
-      .home-feature-item
-        .icon-home.icon-smiley
-        %h3=t 'home.second_col_headline'
-        %p=t 'home.second_col_text'
+.content
+  = render 'about'
 
-    .one-third.column
-      .home-feature-item
-        .icon-home.icon-cloud-up
-        %h3=t 'home.third_col_headline'
-        %p=t 'home.third_col_text'
+.content
+  = render 'process'
 
+.content
+  = render 'projects'
 
-.doc-section
-  .container
-    .ten.columns.alpha
-      %h2.lite=t 'home.wwd'
-
-      = mail_to "hello@edeyalabs.com", t('home.discuss'), :class => "btn primary"
-
-    .five.columns.offset-by-one.omega
-      %h3.lite=t 'home.call_headline'
-      %p=t 'phone_number' 
-      %h3.lite=t 'home.email_headline'
-      %p=t 'email'
+.content
+  = render 'contact'

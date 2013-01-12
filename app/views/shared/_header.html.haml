@@ -1,7 +1,4 @@
-.top-header
-  .container
-    = link_to "", root_url, :class => "logo"
-    %ul.main-nav
-      %li= link_to "Home", root_url
-      %li= link_to "About us", about_us_path
-      %li= link_to "Services", services_path
+%header.container.top-header
+  = link_to "", root_url, :class => "logo"
+  .orange-dot
+  %h2=t 'tag_line'
