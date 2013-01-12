@@ -1,10 +1,42 @@
 en:
   tag_line: More than just ideas
-  about: About us
-  about_sub: Get to know us better
-  process: Our Process
-  process_sub: This is how we work
-  projects: Projects
-  projects_sub: What we do
-  contact: Contact us
-  contact_sub: Get in touch
+
+  about:
+    main: About us
+    sub: Get to know us better
+
+    paragraphs:
+      one:
+      two:
+
+  process:
+    main: Our Process
+    sub: This is how we work
+
+    paragraphs:
+     one:
+     two:
+
+    steps:
+      one:
+      one_desc:
+      two:
+      two_desc:
+      three:
+      three_desc:
+
+
+  projects:
+    main: Projects
+    sub: What we do
+
+    paragraphs:
+     one:
+     two:
+
+
+  contact:
+    main: Contact us
+    sub: Get in touch
+    email: hello@edeyalabs.com
+    mobile: +63923 522 5772
