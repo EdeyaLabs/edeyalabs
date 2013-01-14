@@ -1,42 +1,51 @@
 en:
-  tag_line: More than just ideas
-
+  catch: "We'd Make A Great Extension Of Your Team"
+  tag_line: "We partner with digital agencies and IT Outsourcing companies worldwide to help them deliver their web projects."
+  
+  home:
+    main: Home
+    
   about:
-    main: About us
-    sub: Get to know us better
-
-    paragraphs:
-      one:
-      two:
-
-  process:
-    main: Our Process
-    sub: This is how we work
-
-    paragraphs:
-     one:
-     two:
+    main: About
+    sub: Get to know us
 
     steps:
-      one:
-      one_desc:
-      two:
-      two_desc:
-      three:
-      three_desc:
-
-
-  projects:
-    main: Projects
-    sub: What we do
-
+      one: Friendly Pricing
+      one_desc: "Our hourly rate is specifically designed for agencies and IT Outsourcing companies.
+      We offer friendly pricing so you can price your clients as you normally would to keep a profit margin."
+      two: Process & Communication
+      two_desc: "We thrive through process and communication. Using Agile development methodologies, we encourage 
+      collaboration and provide flexibility from planning, development, testing, all the way to deployment."
+      three: Trust & Transparency
+      three_desc: "Your client's ideas and code are, well, their ideas and code. We respect intellectual property,
+      and we will be as transparent as we can be to give you the control you need."
+      
     paragraphs:
-     one:
-     two:
+      one: "Just to sum it all up, we can help you increase your sales, we know how to work on
+      projects with multiple client layers, we value trust and relationship, and we get the job done. It's a no-brainer - work with us on your next project!"
 
+  team:
+    main: Team
+    sub: Who we are
+
+    steps:
+      one: Harry
+      one_desc: Project Lead
+      one_text: "Harry specializes in product development from writing business plans, translating business
+      requirements into functional requirements, product positioning, product marketing, and support.
+      Aside from product management, Harry also has project management under his belt."
+      two: Vince
+      two_desc: Ruby Developer
+      two_text: "Vince is the hacker in the team. He codes on multiple programming languages with a preference
+      in Ruby. He has developed several projects on different spaces from enterprise to little 'science projects'."
+      three: Harvey
+      three_desc: Web / UI designer
+      three_text: "Harvey is the team's go-to-guy when it comes to design. His design experience ranges from simple
+      websites to full-blown web applications that require extensive prototyping and usability testing to achieve a seamless user experience flow."
 
   contact:
     main: Contact us
     sub: Get in touch
     email: hello@edeyalabs.com
     mobile: +63923 522 5772
+    skype: "Skype: harry_lp7"

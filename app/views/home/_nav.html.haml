@@ -1,27 +1,27 @@
 %nav.menu-navigation{ :style => "display: block;" }
   %ul
     %li.about
-      %a
-        %span=t 'about.main'
+      %a{ :href => "#home" }
+        %span=t 'home.main'
     %li.process
-      %a
-        %span=t 'process.main'
+      %a.scroll{ :href => "#about" }
+        %span=t 'about.main'
     %li.projects
-      %a
-        %span=t 'projects.main'
+      %a.scroll{ :href => "#team" }
+        %span=t 'team.main'
     %li.contact
-      %a
+      %a.scroll{ :href => "#contact" }
         %span=t 'contact.main'
 
 %nav.menu-navigation-2.fixed.hide{ :style => "display: none;" }
   %ul
     %li.about
-      %a{ :href => "#" }=t 'about.main'
+      %a{ :href => "#team" }=t 'home.main'
     %li.process
-      %a{ :href => "#"}=t 'process.main'
+      %a{ :href => "#team"}=t 'about.main'
     %li.projects
-      %a{ :href => "#" }=t 'projects.main'
+      %a{ :href => "#team" }=t 'team.main'
     %li.contact
-      %a{ :href => "#" }=t 'contact.main'
+      %a{ :href => "#contact" }=t 'contact.main'
 
 

@@ -1,0 +1,37 @@
+%section.team-section#team
+  %header.centered
+    %h2.head=t 'team.main'
+    .orange-dot
+    %h3=t 'team.sub'
+
+  .container
+    .one-third.column.alpha
+      .thumb-container.clearfix
+        = image_tag("harry.jpg")
+        %h3=t 'team.steps.one'
+        %p.lighter=t 'team.steps.one_desc'
+        %a.social-link.linkedin{:href => "http://ph.linkedin.com/pub/harry-arbasa/49/145/6a7", :target => "_blank"}
+        %a.social-link.twitter{:href => "http://www.twitter.com/harrylp7", :target => "_blank"}
+      .description
+        %p=t 'team.steps.one_text'
+        
+    .one-third.column
+      .thumb-container.clearfix
+        = image_tag("vince.jpg")
+        %h3=t 'team.steps.two'
+        %p.lighter=t 'team.steps.two_desc'
+        %a.social-link.linkedin{:href => "http://ph.linkedin.com/pub/vincent-paca/35/7ab/765", :target => "_blank"}
+        %a.social-link.twitter{:href => "http://www.twitter.com/vincentpaca", :target => "_blank"}
+      .description
+        %p=t 'team.steps.two_text'
+        
+    .one-third.column.omega
+      .thumb-container.clearfix
+        = image_tag("harvey.jpg")
+        %h3=t 'team.steps.three'
+        %p.lighter=t 'team.steps.three_desc'
+        %a.social-link.linkedin{:href => "http://ph.linkedin.com/pub/harvey-enrile/19/983/431/", :target => "_blank"}
+        %a.social-link.twitter{:href => "http://www.twitter.com/EnrileHarvey", :target => "_blank"}
+        %a.social-link.url{:href => "http://www.harveyenrile.com", :target => "_blank"}
+      .description
+        %p=t 'team.steps.three_text'
