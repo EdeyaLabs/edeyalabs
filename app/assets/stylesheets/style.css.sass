@@ -1,6 +1,3 @@
-/* #Reset & Basics (Inspired by E. Meyers)
- *==================================================
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
   margin: 0
   padding: 0
@@ -47,13 +44,17 @@ a
   cursor: pointer
   &.logo
     display: inline-block
-    width: 255px
-    height: 58px
-    background: image-url('sprite.png') no-repeat 0 0
+    width: 300px
+    height: 68px
+    background: image-url("logo.png") no-repeat 0 0
 
 .top-header
   text-align: center
   margin-top: 20px
+  h1
+    font-size: 50px
+    font-family: 'Georgia', serif
+    letter-spacing: -2px
 
 .orange-dot
   width: 10px
@@ -66,12 +67,16 @@ a
 .menu-navigation
   text-align: center
   margin-top: 60px
+  -webkit-transition: all .1s ease-in-out
+  -moz-transition: all .1s ease-in-out
+  transition: all .1s ease-in-out
   position: relative
   li
     display: inline-block
     position: relative
     a
       width: 230px
+      text-decoration: none
       height: 90px
       display: block
       background: #f1f1f1
@@ -107,18 +112,28 @@ a
       right: -40px
     &.about a:hover
       right: 5px
-    &.process a:hover
-      left: 5px
-      bottom: 5px
-    &.projects a:hover
-      top: 5px
-    &.contact a:hover
-      right: 5px
-      top: -5px
+
+.about-section, .team-section, .projects-section
+  padding-top: 70px
+
+.contact-section
+  padding-top: 70px
+  padding-bottom: 70px
+
+.menu-navigation li
+  &.process a:hover
+    left: 5px
+    bottom: 5px
+  &.projects a:hover
+    top: 5px
+  &.contact a:hover
+    right: 5px
+    top: -5px
 
 .color-burst
-  background: image-url('color-burst.png') repeat-x
+  background: image-url("color-burst.png") repeat-x
   height: 82px
+  width: 100%
 
 .menu-navigation li
   &.process a
@@ -172,27 +187,10 @@ a
     &.contact a
       background: #F1853D
 
-h2
-  &.about-head
-    background: image-url('sprite.png') no-repeat 0 -59px
-    height: 49px
-    width: 146px
-    margin: 0 auto
-  &.process-head
-    background: image-url('sprite.png') no-repeat 0 -120px
-    height: 49px
-    width: 191px
-    margin: 0 auto
-  &.projects-head
-    background: image-url('sprite.png') no-repeat 0 -170px
-    height: 57px
-    width: 201px
-    margin: 0 auto
-  &.contact-head
-    background: image-url('sprite.png') no-repeat 0 -229px
-    height: 44px
-    width: 190px
-    margin: 0 auto
+h2.head
+  font-size: 50px
+  font-family: 'Georgia', serif
+  letter-spacing: -2px
 
 .content
   margin: 50px 0
@@ -211,19 +209,31 @@ h2
 .sub-section
   font-size: 16px
   h3
-    font-size: 50px
+    font-size: 23px
+    font-family: 'Georgia', sans-serif
 
 .contact-form
   width: 400px
   margin: 0 auto
-  input[type='text'], textarea
+  input
+    &[type='text'], &[type='email']
+      border: none
+      background: #f1f1f1
+      border: 1px solid #e1e1e1
+      padding: 15px
+      font-size: 16px
+      font-family: 'OpenSansLight'
+  textarea
     border: none
     background: #f1f1f1
     border: 1px solid #e1e1e1
     padding: 15px
     font-size: 16px
     font-family: 'OpenSansLight'
-  input[type='text']:focus, textarea:focus
+  input
+    &[type='text']:focus, &[type='email']:focus
+      background: #fff
+  textarea:focus
     background: #fff
   fieldset
     margin: 10px 0
@@ -239,3 +249,44 @@ h2
     width: 100%
     box-sizing: border-box
     outline: none
+
+.profile-list
+  font-size: 14px
+  .column
+    margin-bottom: 20px
+  h3
+    font-size: 18px
+
+.lighter
+  color: #9f9f9f
+
+.thumb-container
+  margin-bottom: 10px
+  img
+    float: left
+    margin-right: 10px
+
+.description
+  font-size: 14px
+  line-height: 1.6
+  p
+    margin: 5px 0 10px 0
+
+.social-link
+  margin-top: 10px
+  opacity: .4
+  width: 27px
+  height: 27px
+  display: inline-block
+  background: image-url("social.png") no-repeat
+  -webkit-transition: all .1s ease-in-out
+  -moz-transition: all .1s ease-in-out
+  transition: all .1s ease-in-out
+  &:hover
+    opacity: .6
+  &.linkedin
+    background-position: -2px 0
+  &.twitter
+    background-position: -29px 0
+  &.url
+    background-position: -56px 0
