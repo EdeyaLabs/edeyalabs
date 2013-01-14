@@ -1,8 +1,18 @@
 $(document).ready ->
+  $(".scroll").click (event) ->
+    event.preventDefault()
+    $("html,body").animate
+      scrollTop: $(@hash).offset().top
+    , 500
+
+  $("a[href=#home]").click ->
+    $("html, body").animate
+      scrollTop: 0
+    , "slow"
+    false
+
   aboveHeight = $("header").outerHeight()
   
-  # var aboveHeight = 70;
-  #when scroll
   $(window).scroll ->
     
     #if scrolled down more than the header’s height
@@ -10,10 +20,10 @@ $(document).ready ->
       
       # if yes, add “fixed” class to the <nav>
       # add padding top to the #content 
-      $(".menu-navigation").hide "fast"
-      $(".menu-navigation-2").show "fast"
+      $(".menu-navigation").css "opacity", "0"
+      $(".menu-navigation-2").show()
     else
       
       # when scroll up or less than aboveHeight,
-      $(".menu-navigation").show "fast"
-      $(".menu-navigation-2").hide "fast"
+      $(".menu-navigation").css "opacity", "1"
+      $(".menu-navigation-2").hide()
