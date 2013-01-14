@@ -10,5 +10,6 @@
  *
  *= require_self
  *= require grid
+ *= require style
  *= require_tree .
  */
