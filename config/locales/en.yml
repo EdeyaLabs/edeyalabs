@@ -1,32 +1,30 @@
 en:
-  catch: "We'd Make A Great Extension Of Your Team"
+  catch: "We extend your team"
   tag_line: "We partner with digital agencies and IT Outsourcing companies worldwide to help them deliver their web projects."
-  
+
   home:
     main: Home
-    
+
   about:
-    main: About
-    sub: Get to know us
+    main: Who We Are
 
     steps:
       one: Friendly Pricing
       one_desc: "Our hourly rate is specifically designed for agencies and IT Outsourcing companies.
       We offer friendly pricing so you can price your clients as you normally would to keep a profit margin."
       two: Process & Communication
-      two_desc: "We thrive through process and communication. Using Agile development methodologies, we encourage 
+      two_desc: "We thrive through process and communication. Using Agile development methodologies, we encourage
       collaboration and provide flexibility from planning, development, testing, all the way to deployment."
       three: Trust & Transparency
       three_desc: "Your client's ideas and code are, well, their ideas and code. We respect intellectual property,
       and we will be as transparent as we can be to give you the control you need."
-      
+
     paragraphs:
       one: "Just to sum it all up, we can help you increase your sales, we know how to work on
       projects with multiple client layers, we value trust and relationship, and we get the job done. It's a no-brainer - work with us on your next project!"
 
   team:
-    main: Team
-    sub: Who we are
+    main: What We Do
 
     steps:
       one: Harry

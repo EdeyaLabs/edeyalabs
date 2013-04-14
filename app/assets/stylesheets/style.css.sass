@@ -1,292 +1,254 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+.group:before,
+.group:after
+  content: ""
+  display: table
+.group:after
+  clear: both
+.group 
+  zoom: 1
+
+body
+  font-family: 'Roboto', sans-serif
+  font-weight: 300
+  background: #232323
+  color: #fff
+  line-height: 1.6
+  cursor: default
+
+section
+  position: relative
+  z-index: 10
+  text-align: center
+  h4
+    opacity: .4
+    font-weight: 100
+    position: relative
+    top: -3px
+.cell
+  padding: 30px
+.text-left
+  text-align: left
+.text-right
+  text-align: right
+.top-section
+  min-height: 450px
+#bgoverlay
+  background-image: image-url('bg_pattern_overlay.png')
+  position: fixed
+  top: 0
+  left: 0
+  height: 100%
+  width: 100%
+  z-index: 1
+  display: block
+#bgStretch
+  position: fixed
+  left: 0
+  top: 0
+  z-index: -9999
   margin: 0
   padding: 0
-  border: 0
-  font-size: 100%
-  font: inherit
-  vertical-align: baseline
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
-  display: block
-
-body
-  line-height: 1
-
-ol, ul
-  list-style: none
-
-blockquote, q
-  quotes: none
-
-blockquote
-  &:before, &:after
-    content: ''
-    content: none
-
-q
-  &:before, &:after
-    content: ''
-    content: none
-
-table
-  border-collapse: collapse
-  border-spacing: 0
-
-body
-  background: #fff
-  font: 18px / 1.4 "OpenSansLight", Arial, sans-serif
-  color: #676767
-  -webkit-font-smoothing: antialiased
-  /* Fix for webkit rendering
-  -webkit-text-size-adjust: 100%
-
-a
-  cursor: pointer
-  &.logo
-    display: inline-block
-    width: 300px
-    height: 68px
-    background: image-url("logo.png") no-repeat 0 0
-
-.top-header
+  height: 800px
+  width: 100%
+  background-image: image-url('bg.jpg')
+  background-repeat: no-repeat
+  background-size: 100%
+  img
+    width: 100%
+.about-section
+  background: #4aa8c7
   text-align: center
-  margin-top: 20px
-  h1
-    font-size: 50px
-    font-family: 'Georgia', serif
-    letter-spacing: -2px
-
-.orange-dot
-  width: 10px
-  height: 10px
-  margin: 0 auto
-  background: #f76d43
-  border-radius: 50%
-  margin: 10px auto
-
-.menu-navigation
-  text-align: center
-  margin-top: 60px
-  -webkit-transition: all .1s ease-in-out
-  -moz-transition: all .1s ease-in-out
-  transition: all .1s ease-in-out
-  position: relative
-  li
-    display: inline-block
-    position: relative
-    a
-      width: 230px
-      text-decoration: none
-      height: 90px
-      display: block
-      background: #f1f1f1
-      position: relative
-      color: #fff
-      -webkit-transition: all .1s ease-in-out
-      -moz-transition: all .1s ease-in-out
-      transition: all .1s ease-in-out
-  span
-    position: absolute
-  li
-    &.about
-      right: -120px
-      z-index: 1000
-      a
-        background: #43bef7
-        font-size: 30px
-        letter-spacing: -1px
-        span
-          bottom: 0px
-          left: 10px
-    &.contact
-      left: -120px
-      z-index: 1010
-      a
-        background: #f1853d
-        span
-          bottom: 5px
-          right: 10px
-    &.process
-      top: -30px
-      z-index: 1030
-      right: -40px
-    &.about a:hover
-      right: 5px
-
-.about-section, .team-section, .projects-section
-  padding-top: 70px
-
+  overflow: hidden
 .contact-section
-  padding-top: 70px
-  padding-bottom: 70px
-
-.menu-navigation li
-  &.process a:hover
-    left: 5px
-    bottom: 5px
-  &.projects a:hover
-    top: 5px
-  &.contact a:hover
-    right: 5px
-    top: -5px
-
-.color-burst
-  background: image-url("color-burst.png") repeat-x
-  height: 82px
-  width: 100%
-
-.menu-navigation li
-  &.process a
-    background: #4be47d
-    font-size: 24px
-    span
-      top: 0px
-      right: 10px
-  &.projects
-    bottom: -30px
-    left: -90px
-    z-index: 1040
-    a
-      z-index: 1040
-      background: #c8ba98
-      font-size: 26px
-      span
-        bottom: 5px
-        right: 10px
-
-.menu-navigation-2
-  width: 100%
-  z-index: 999
-  &.hide
-    display: none
-  &.fixed
-    position: fixed
-    top: 0
-    left: 0
-  li
-    display: inline-block
-    float: left
-    text-align: center
-    width: 25%
-    a
-      padding: 10px
-      color: #fff
-      text-decoration: none
-      display: block
-      -webkit-transition: all .1s ease-in-out
-      -moz-transition: all .1s ease-in-out
-      transition: all .1s ease-in-out
-      &:hover
-        padding-top: 15px
-    &.about a
-      background: #43BEF7
-    &.process a
-      background: #4BE47D
-    &.projects a
-      background: #C8BA98
-    &.contact a
-      background: #F1853D
-
-h2.head
-  font-size: 50px
-  font-family: 'Georgia', serif
-  letter-spacing: -2px
-
-.content
-  margin: 50px 0
-  header
-    margin-bottom: 50px
-    margin-top: 50px
-
-.centered
-  text-align: center
-
-.block
-  margin: 20px 0
-  p
-    line-height: 1.8
-
-.sub-section
-  font-size: 16px
+  overflow: hidden
+.cell
   h3
-    font-size: 23px
-    font-family: 'Georgia', sans-serif
+    font-size: 24px
+    text-transform: uppercase
+    margin-bottom: 10px
+    font-family: 'Montserrat', sans-serif
+    text-shadow: 3px 3px 0 rgba(0,0,0,.1)
+    letter-spacing: 1px
 
-.contact-form
-  width: 400px
-  margin: 0 auto
-  input
-    &[type='text'], &[type='email']
-      border: none
-      background: #f1f1f1
-      border: 1px solid #e1e1e1
-      padding: 15px
-      font-size: 16px
-      font-family: 'OpenSansLight'
-  textarea
-    border: none
-    background: #f1f1f1
-    border: 1px solid #e1e1e1
-    padding: 15px
-    font-size: 16px
-    font-family: 'OpenSansLight'
-  input
-    &[type='text']:focus, &[type='email']:focus
+.team-section
+  background: #232323
+  overflow: hidden
+.top-nav
+  margin: 40px 0 80px
+  text-align: center
+  &>a
+    display: inline-block
+    text-transform: uppercase
+    color: #fff
+    padding: 8px 12px
+    border-radius: 3px
+    transition: all .1s ease-in-out
+    margin: 0 25px
+    font-size: 14px
+    font-weight: 700
+    position: relative
+    z-index: 1000
+    &.active
       background: #fff
-  textarea:focus
-    background: #fff
+      color: #434343 
+    &:hover
+      background: #fff
+      color: #434343
+.logo
+  width: 296px
+  height: 61px
+  display: inline-block
+  background-image: image-url('logo.png')
+  background-repeat: no-repeat
+  background-position: 0 50%
+  margin-top: 20px
+h1.main
+  font-size: 70px
+  margin-top: 100px
+  /* font-weight: 100
+  text-transform: uppercase
+  text-shadow: 0 1px 2px rgba(0,0,0,.5)
+  font-family: 'Montserrat', sans-serif
+  text-shadow: 4px 4px 0 rgba(250,210,116,.2)
+  letter-spacing: 1px
+h2.desc
+  font-weight: 100
+  font-size: 18px
+  text-shadow: 0 1px 2px rgba(0,0,0,.5)
+.block
+  margin: 50px 0
+.tree
+  position: absolute
+  width: 1px
+  height: 100%
+  border-left: 1px solid #fff
+  left: 50%
+  top: 0
+  margin-top: 100px
+  opacity: .4
+  .ball
+    width: 20px
+    height: 20px
+    background-color: #fff
+    border-radius: 50%
+    margin-left: -10px
+
+.team-container
+  display: inline-block
+  margin: 5px
+  background: #999
+  overflow: hidden
+  height: 300px
+  width: 250px
+  position: relative
+  z-index: 10
+  .team-data-overlay
+    position: absolute
+    bottom: 0
+    width: 100%
+    text-align: left
+    left: 0
+    padding: 10px
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,.2)))
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2))
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2))
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2))
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2))
+    font-style: italic
+    font-size: 14px
+    font-weight: 700
+    h3
+      font-size: 20px
+      font-weight: 100
+      font-style: normal
+
+.form
   fieldset
     margin: 10px 0
-  input
-    &[type=submit]
-      border: none
-      cursor: pointer
-      padding: 15px
-      font-size: 16px
-      background: #43bef7
-      font-family: 'OpenSansLight'
-      color: #fff
+  input[type=text],
+  input[type=email],
+  textarea
+    opacity: .7
+    border: none
+    padding: 12px
+    font-size: 16px
     width: 100%
     box-sizing: border-box
+    -moz-box-sizing: border-box
     outline: none
+    border: 1px solid transparent
+    transition: all .1s ease-in-out
+    &:focus
+      opacity: 1
+    &.error
+      border-color: #f92d2d
+  textarea
+    resize: none
+    min-height: 100px
 
-.profile-list
-  font-size: 14px
-  .column
-    margin-bottom: 20px
-  h3
-    font-size: 18px
-
-.lighter
-  color: #9f9f9f
-
-.thumb-container
-  margin-bottom: 10px
-  img
-    float: left
-    margin-right: 10px
-
-.description
-  font-size: 14px
-  line-height: 1.6
-  p
-    margin: 5px 0 10px 0
-
-.social-link
-  margin-top: 10px
-  opacity: .4
-  width: 27px
-  height: 27px
-  display: inline-block
-  background: image-url("social.png") no-repeat
-  -webkit-transition: all .1s ease-in-out
-  -moz-transition: all .1s ease-in-out
+button.btn-submit
+  padding: 15px 50px
+  background: #f86c3b
+  border: none
+  color: #fff
+  font-size: 16px
+  box-shadow: 0 2px 0 #c0390a
+  cursor: pointer
   transition: all .1s ease-in-out
-  &:hover
-    opacity: .6
-  &.linkedin
-    background-position: -2px 0
-  &.twitter
-    background-position: -29px 0
-  &.url
-    background-position: -56px 0
+  position: relative
+  &:active
+    background-color: #c0390a
+    top: 1px
+
+.contact-email
+  margin: 15px 0
+  display: block
+  text-decoration: underline
+.project-desc
+  padding: 0 20px
+  h2
+    font-size: 20px
+    font-weight: bold
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) 
+
+  .tree
+    display: none
+  h1.main
+    margin-top: 20px
+    font-size: 40px
+    margin-bottom: 30px
+  #bgStretch
+    background-size: 400%
+    background-position: center 10%
+    height: 600px
+  .block
+    margin: 20px 0
+  .cell
+    padding: 15px
+  .top-nav
+    margin: 10px 0 20px
+    text-align: center
+    a
+      display: block
+  button.btn-submit
+    width: 100%
+  .top-section
+    min-height: 400px
+  .logo
+    margin: 10px 0 0
+
+@media only screen and (max-width: 479px)
+  .logo
+    width: 70%
+    box-sizing: border-box
+    -moz-box-sizing: border-box
+    background-size: 100%
+
+  
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2)
+
