@@ -9,7 +9,7 @@ en:
     main: Home
 
   about:
-    main: What We Do
+    main: WHAT WE DO
 
     steps:
       one: Friendly Pricing
@@ -27,7 +27,7 @@ en:
       projects with multiple client layers, we value trust and relationship, and we get the job done. It's a no-brainer - work with us on your next project!"
 
   team:
-    main: Who We Are
+    main: WHO WE ARE
 
     steps:
       one: Harry
@@ -36,7 +36,7 @@ en:
       requirements into functional requirements, product positioning, product marketing, and support.
       Aside from product management, Harry also has project management under his belt."
       two: Vince
-      two_desc: Ruby Developer
+      two_desc: Coder
       two_text: "Vince is the hacker in the team. He codes on multiple programming languages with a preference
       in Ruby. He has developed several projects on different spaces from enterprise to little 'science projects'."
       three: Harvey
@@ -45,8 +45,9 @@ en:
       websites to full-blown web applications that require extensive prototyping and usability testing to achieve a seamless user experience flow."
 
   contact:
-    main: Contact us
+    main: CONTACT US
     sub: Get in touch
+    text: "You can say hello or if you're interested to work with us and help you out on your projects, send us a message or email us"
     email: hello@edeyalabs.com
     mobile: +63923 522 5772
     skype: "Skype: harry_lp7"

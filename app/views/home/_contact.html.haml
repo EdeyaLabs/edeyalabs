@@ -1,19 +1,19 @@
 %section.contact-section#sectionContact
-  .container 
-    .row 
-      .twelvecol.last 
-        .block 
-          %h4 
-            CONTACT US
+  .container
+    .row
+      .twelvecol.last
+        .block
+          %h4=t 'contact.main'
           .tree
             .ball
           .block.group
             .sixcol
               .cell.text-left
-                %h3 Get in touch
-                You can say hello or if you're interested to work with us and help you out on your projects, send us a message or email us
+                %h3=t 'contact.sub'
+                =t 'contact.text'
                 %span.contact-email
-                  hello@edeyalabs.com
+                  =t 'contact.email'
+
             .sixcol.last
               .cell.text-left
                 .form
