@@ -1,31 +1,27 @@
-%section.about-section#about
-  %header.centered
-    %h2.head=t 'about.main'
-    .orange-dot
-    %h3=t 'about.sub'
-
+%section.about-section#sectionAbout
   .container
-    .one-third.column.alpha
-      .sub-section
-        %h3=t 'about.steps.one'
+    .row
+      .twelvecol.last
         .block
-          %p=t 'about.steps.one_desc'
-
-    .one-third.column
-      .sub-section
-        %h3=t 'about.steps.two'
-        .block
-          %p=t 'about.steps.two_desc'
-
-
-    .one-third.column.omega
-      .sub-section
-        %h3=t 'about.steps.three'
-        .block
-          %p=t 'about.steps.three_desc'
-     
-    .columns.sixteen.alpha
-      .block
-        %p=t 'about.paragraphs.one'
-
-
+          %h4
+            WHAT WE DO
+        .tree
+          .ball
+        .block.group
+          .sixcol
+            .cell.text-left
+              %h3 Web Development
+              =t 'lorem'
+          .sixcol.last
+            .cell.text-left
+              %h3 E-Commerce
+              =t 'lorem'
+          .group
+            .sixcol
+              .cell.text-left
+                %h3 Design
+                =t 'lorem'
+            .sixcol.last
+              .cell.text-left
+                %h3 Product Development
+                =t 'lorem'

@@ -1,12 +1,15 @@
 en:
   catch: "We extend your team"
   tag_line: "We partner with digital agencies and IT Outsourcing companies worldwide to help them deliver their web projects."
+  lorem: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, dolorum, voluptate modi reiciendis aspernatur natus
+  dolor earum doloribus cum neque odio accusantium non cupiditate soluta porro officiis praesentium nulla quam at laborum
+  harum quidem fugit consectetur inventore incidunt recusandae iste ea quod iure possimus. Consequatur sed ipsam suscipit."
 
   home:
     main: Home
 
   about:
-    main: Who We Are
+    main: What We Do
 
     steps:
       one: Friendly Pricing
@@ -24,7 +27,7 @@ en:
       projects with multiple client layers, we value trust and relationship, and we get the job done. It's a no-brainer - work with us on your next project!"
 
   team:
-    main: What We Do
+    main: Who We Are
 
     steps:
       one: Harry

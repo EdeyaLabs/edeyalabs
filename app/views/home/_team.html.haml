@@ -1,37 +1,37 @@
-%section.team-section#team
-  %header.centered
-    %h2.head=t 'team.main'
-    .orange-dot
-    %h3=t 'team.sub'
+%section.team-section#sectionTeam
+  .container 
+    .row 
+      .twelvecol.last 
+        .block
+          %h4
+            WHO WE ARE
+        .tree
+          .ball
+        .block.group
+          .twelvecol.last
+            .block.group
+              .team-container
+                .team-data-overlay
+                  %h3
+                    Harry
+                  Project Manager
+              .team-container
+                .team-data-overlay
+                  %h3
+                    Vince
+                  Ruby Developer
+              .team-container
+                .team-data-overlay
+                  %h3
+                    Harvey
+                  Web Designer / UI
+            .block.group
+              .sixcol
+                .cell.text-left
+                  %h3 Small and Focused
+                  We're small and easy to integrate, we don't take on many projects at once. We work closely with our clients and people involved, build relationships and put them on our team to help get feedback faster and move forward together. 
+              .sixcol.last
+                .cell.text-left
+                  %h3 Fast Workflow
+                  With solid experience working in the industry, we've come to learn how to incorporate different approaches to working fast and efficient with our team members to deliver projects fast. 
 
-  .container
-    .one-third.column.alpha
-      .thumb-container.clearfix
-        = image_tag("harry.jpg")
-        %h3=t 'team.steps.one'
-        %p.lighter=t 'team.steps.one_desc'
-        %a.social-link.linkedin{:href => "http://ph.linkedin.com/pub/harry-arbasa/49/145/6a7", :target => "_blank"}
-        %a.social-link.twitter{:href => "http://www.twitter.com/harrylp7", :target => "_blank"}
-      .description
-        %p=t 'team.steps.one_text'
-        
-    .one-third.column
-      .thumb-container.clearfix
-        = image_tag("vince.jpg")
-        %h3=t 'team.steps.two'
-        %p.lighter=t 'team.steps.two_desc'
-        %a.social-link.linkedin{:href => "http://ph.linkedin.com/pub/vincent-paca/35/7ab/765", :target => "_blank"}
-        %a.social-link.twitter{:href => "http://www.twitter.com/vincentpaca", :target => "_blank"}
-      .description
-        %p=t 'team.steps.two_text'
-        
-    .one-third.column.omega
-      .thumb-container.clearfix
-        = image_tag("harvey.jpg")
-        %h3=t 'team.steps.three'
-        %p.lighter=t 'team.steps.three_desc'
-        %a.social-link.linkedin{:href => "http://ph.linkedin.com/pub/harvey-enrile/19/983/431/", :target => "_blank"}
-        %a.social-link.twitter{:href => "http://www.twitter.com/EnrileHarvey", :target => "_blank"}
-        %a.social-link.url{:href => "http://www.harveyenrile.com", :target => "_blank"}
-      .description
-        %p=t 'team.steps.three_text'

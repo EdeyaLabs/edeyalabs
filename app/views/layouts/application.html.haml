@@ -3,6 +3,10 @@
   %head
     %title edeyalabs - More than just ideas.
 
+    %meta{:name => "viewport", :content => "width=device-width; initial-scale=1.0; maximum-scale=1.0;"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Roboto:400,700,300italic,300,100,100italic", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Montserrat:700", :rel => "stylesheet", :type => "text/css"}
+
     - if Rails.env.development? || Rails.env.test?
       = stylesheet_link_tag    "application", :media => "all"
       = javascript_include_tag "application"
@@ -20,15 +24,8 @@
 
   %body
     = render 'shared/header'
-
-    %section.top-section#sectionHome
-      .container
-        .row
-          .twelvecol.last
-            .logo
-            %h1.main
-              =t 'catch'
-            %h2.desc
-              =t 'tag_line'
+    = render 'shared/logo'
 
     = yield
+
+    #bgStretch

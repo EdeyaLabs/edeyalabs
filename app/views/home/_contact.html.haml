@@ -1,15 +1,28 @@
-%section.contact-section#contact{ :style => "padding-bottom: 0;" }
-  %header.centered
-    %h2.head=t 'contact.main'
-    .orange-dot
-    %h3=t 'contact.sub'
-
-.container.centered
-  .block
-    %p=t 'contact.email'
-  .block
-    %p=t 'contact.mobile'
-  .block
-    %p=t 'contact.skype'
-
-
+%section.contact-section#sectionContact
+  .container 
+    .row 
+      .twelvecol.last 
+        .block 
+          %h4 
+            CONTACT US
+          .tree
+            .ball
+          .block.group
+            .sixcol
+              .cell.text-left
+                %h3 Get in touch
+                You can say hello or if you're interested to work with us and help you out on your projects, send us a message or email us
+                %span.contact-email
+                  hello@edeyalabs.com
+            .sixcol.last
+              .cell.text-left
+                .form
+                  %fieldset
+                    %input.error{ :type => 'email', :placeholder => 'Your Email' }
+                  %fieldset
+                    %input{ :type => 'text', :placeholder => 'Your Name' }
+                  %fieldset
+                    %textarea{ :placeholder => 'Message' }
+                  %fieldset.text-right
+                    %button.btn-submit
+                      Send

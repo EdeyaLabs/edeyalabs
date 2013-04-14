@@ -1,8 +1,6 @@
 #bgoverlay
 %nav.top-nav.fixed
-  = link_to t("home.main"), nil, :id => "navHome"
-  = link_to t("about.main"), nil, :id => "navAbout"
-  = link_to t("team.main"), nil, :id => "navTeam"
-  = link_to t("contact.main"), nil, :id => "navContact"
-
-
+  %a#navHome=t "home.main"
+  %a#navAbout=t "about.main"
+  %a#navTeam=t "team.main"
+  %a#navContact=t "contact.main"
