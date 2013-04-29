@@ -12,5 +12,6 @@ class Email
   validates_length_of :message, :maximum => 500
 
   def send_email
+    AdminMailer.send_message(email, name, message).deliver
   end
 end

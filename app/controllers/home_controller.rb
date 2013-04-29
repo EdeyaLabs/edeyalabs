@@ -7,7 +7,7 @@ class HomeController < ApplicationController
     @email = Email.new(params[:email])
 
     if @email.valid?
-      @message.send_email
+      @email.send_email
       respond_to do |format|
         format.js
       end
