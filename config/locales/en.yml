@@ -1,6 +1,6 @@
 en:
-  catch: "We extend your team"
-  tag_line: "We partner with digital agencies and IT Outsourcing companies worldwide to help them deliver their web projects."
+  catch: "We'd Make A Great Extension Of Your Team"
+  tag_line: "We take on all the challenges that come in building great apps to help startups and web development firms SUCCEED."
   lorem: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, dolorum, voluptate modi reiciendis aspernatur natus
   dolor earum doloribus cum neque odio accusantium non cupiditate soluta porro officiis praesentium nulla quam at laborum
   harum quidem fugit consectetur inventore incidunt recusandae iste ea quod iure possimus. Consequatur sed ipsam suscipit."
@@ -12,12 +12,14 @@ en:
     main: WHAT WE DO
 
     steps:
-      one: Friendly Pricing
-      one_desc: "Our hourly rate is specifically designed for agencies and IT Outsourcing companies.
-      We offer friendly pricing so you can price your clients as you normally would to keep a profit margin."
-      two: Process & Communication
-      two_desc: "We thrive through process and communication. Using Agile development methodologies, we encourage
-      collaboration and provide flexibility from planning, development, testing, all the way to deployment."
+      one: Extend Your Team
+      one_desc: "We work with startups, digital agencies, and other web development companies to help them deliver
+       their web projects. Our tools and processes are designed for transparency to give our partners the control 
+       they need to deliver their projects."
+      two: Develop Web Products
+      two_desc: "As startup ourselves, we’re no rookies to the difficulties in building and marketing a product. 
+      With our expertise and experience in product development, we can help bring your idea from... well... an idea 
+      to a highly usable and marketable web product."
       three: Trust & Transparency
       three_desc: "Your client's ideas and code are, well, their ideas and code. We respect intellectual property,
       and we will be as transparent as we can be to give you the control you need."
