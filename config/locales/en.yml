@@ -14,19 +14,19 @@ en:
     steps:
       one: Extend Your Team
       one_desc: "We work with startups, digital agencies, and other web development companies to help them deliver
-       their web projects. Our tools and processes are designed for transparency to give our partners the control 
+       their web projects. Our tools and processes are designed for transparency to give our partners the control
        they need to deliver their projects."
       two: Develop Web Products
-      two_desc: "As startup ourselves, we’re no rookies to the difficulties in building and marketing a product. 
-      With our expertise and experience in product development, we can help bring your idea from... well... an idea 
+      two_desc: "As startup ourselves, we’re no rookies to the difficulties in building and marketing a product.
+      With our expertise and experience in product development, we can help bring your idea from... well... an idea
       to a highly usable and marketable web product."
-      three: Trust & Transparency
-      three_desc: "Your client's ideas and code are, well, their ideas and code. We respect intellectual property,
-      and we will be as transparent as we can be to give you the control you need."
-
-    paragraphs:
-      one: "Just to sum it all up, we can help you increase your sales, we know how to work on
-      projects with multiple client layers, we value trust and relationship, and we get the job done. It's a no-brainer - work with us on your next project!"
+      three: Develop Web Tools
+      three_desc: "Process is key to an organization's success. Increase your organization's efficiency and
+      productivity by automating your business process. We can help you build web apps and tools to automate your
+      sales management, customer management (CRM),  support management, and more."
+      four: Design Highly Usable Apps
+      four_desc: "Good design encompasses beauty and usability. We design good-looking web applications that
+      behave exactly the way the user expects it to."
 
   team:
     main: WHO WE ARE
@@ -45,6 +45,14 @@ en:
       three_desc: Web / UI designer
       three_text: "Harvey is the team's go-to-guy when it comes to design. His design experience ranges from simple
       websites to full-blown web applications that require extensive prototyping and usability testing to achieve a seamless user experience flow."
+
+    descriptions:
+      one: We Are Agile
+      one_text: "From our processes, to the way we collaborate and tools that we use, we follow the SCRUM methodology. SCRUM’s transparency keeps
+      you updated and involved in the progress of your project allowing you to make better decisions on other aspects of your business like marketing and support."
+      two: We Communicate
+      two_text: "We thrive through process and communication. Using Agile development methodologies, we encourage collaboration and provide flexibility
+      from planning, development, testing, all the way to deployment."
 
   contact:
     main: CONTACT US
