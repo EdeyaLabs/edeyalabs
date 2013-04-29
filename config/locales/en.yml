@@ -58,6 +58,7 @@ en:
     main: CONTACT US
     sub: Get in touch
     text: "You can say hello or if you're interested to work with us and help you out on your projects, send us a message or email us"
+    success: "Awesome. We'll get in touch with you as soon as possible."
     email: hello@edeyalabs.com
     mobile: +63923 522 5772
     skype: "Skype: harry_lp7"

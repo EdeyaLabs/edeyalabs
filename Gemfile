@@ -4,7 +4,7 @@ gem 'rails', '3.2.11'
 gem 'haml-rails'
 gem 'cloudinary'
 gem 'ledermann-rails-settings', :require => 'rails-settings'
-gem 'mail_form'
+gem 'active_attr'
 
 group :development do
   gem 'sqlite3'
