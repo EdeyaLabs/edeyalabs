@@ -55,7 +55,8 @@ module Edeyalabs
 
     # Enable the asset pipeline
     config.assets.enabled = true
-    
+    config.assets.initialize_on_precompile = false
+
     # Fonts
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
