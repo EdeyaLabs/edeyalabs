@@ -5,6 +5,9 @@ en:
   dolor earum doloribus cum neque odio accusantium non cupiditate soluta porro officiis praesentium nulla quam at laborum
   harum quidem fugit consectetur inventore incidunt recusandae iste ea quod iure possimus. Consequatur sed ipsam suscipit."
 
+  jobs:
+    main: JOBS
+
   home:
     main: Home
 
