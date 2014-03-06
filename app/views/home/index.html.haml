@@ -1,8 +1,51 @@
-.content
-  = render 'about'
+%section.slide.slide-projects
+  .container
+    .row
+      %h2.title
+        Work
+      .project-block.clearfix
+        .col-md-5
+          .image-container
+            = image_tag "project-offerchat.png"
+        .col-md-7
+          .project-content
+            %h3.project-title Offerchat
+            Offerchat is a live chat web application that enables website visitors to chat in real time with website owners. It provides an easy to use dashboard with built in handy features to enhance the overall chat experience.
+            .project-details
+              %a.box-link
+                View
+      .project-block.clearfix
+        .col-md-5
+          .image-container
+            = image_tag "project-versafleet.png"
+        .col-md-7
+          .project-content
+            %h3.project-title Versafleet
+            Versafleet is a logistics company that tracks their trucks in real time around Singapore - Malaysia route.
+            .project-details
+              %a.box-link
+                View
 
-.content
-  = render 'team'
+%section.slide.slide-process
+  .container
+    .row
+    
+      .col-md-4
+        .text-center
+          %h3 Custom fit
+      .col-md-4
+        .text-center
+          %h3 Iterative
+      .col-md-4
+        .text-center
+          %h3 Build
 
-.content
-  = render 'contact'
+
+/ .content
+/   = render 'about'
+
+/ .content
+/   = render 'team'
+
+/ .content
+/   = render 'contact'

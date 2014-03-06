@@ -1,27 +1,24 @@
-%section.about-section#sectionAbout
+%section.slide-about
   .container
     .row
-      .twelvecol.last
-        .block
-          %h4
-            WHAT WE DO
-        .tree
-          .ball
-        .block.group
+      .block
+        %h2
+          WHAT WE DO
+      .block.group
+        .sixcol
+          .cell.text-left
+            %h3=t 'about.steps.one'
+            =t 'about.steps.one_desc'
+        .sixcol.last
+          .cell.text-left
+            %h3=t 'about.steps.two'
+            =t 'about.steps.two_desc'
+        .group
           .sixcol
             .cell.text-left
-              %h3=t 'about.steps.one'
-              =t 'about.steps.one_desc'
+              %h3=t 'about.steps.three'
+              =t 'about.steps.three_desc'
           .sixcol.last
             .cell.text-left
-              %h3=t 'about.steps.two'
-              =t 'about.steps.two_desc'
-          .group
-            .sixcol
-              .cell.text-left
-                %h3=t 'about.steps.three'
-                =t 'about.steps.three_desc'
-            .sixcol.last
-              .cell.text-left
-                %h3=t 'about.steps.four'
-                =t 'about.steps.four_desc'
+              %h3=t 'about.steps.four'
+              =t 'about.steps.four_desc'

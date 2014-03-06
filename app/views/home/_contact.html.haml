@@ -1,31 +1,29 @@
 %section.contact-section#sectionContact
-  .container
-    .row
-      .twelvecol.last
-        .block
-          %h4=t 'contact.main'
-          .tree
-            .ball
-          .block.group
-            .sixcol
-              .cell.text-left
-                %h3=t 'contact.sub'
-                =t 'contact.text'
-                %span.contact-email
-                  =t 'contact.email'
+  
+  .block
+    %h4=t 'contact.main'
+    .tree
+      .ball
+    .block.group
+      .sixcol
+        .cell.text-left
+          %h3=t 'contact.sub'
+          =t 'contact.text'
+          %span.contact-email
+            =t 'contact.email'
 
-            .sixcol.last
-              .cell.text-left
-                .form
-                  = form_for @email, :url => "/send_email", :remote => true do |f|
-                    .form-message.success{ :style => "display: none;" }
-                      %strong=t 'contact.success'
-                    .fields
-                      %fieldset
-                        = f.text_field :email, :placeholder => "Your Email"
-                      %fieldset
-                        = f.text_field :name, :placeholder => "Your Name"
-                      %fieldset
-                        = f.text_area :message, :placeholder => "Your Message", :rows => 5
-                      %fieldset.text-right
-                        = f.submit "Send", :class => "btn-submit"
+      .sixcol.last
+        .cell.text-left
+          .form
+            = form_for @email, :url => "/send_email", :remote => true do |f|
+              .form-message.success{ :style => "display: none;" }
+                %strong=t 'contact.success'
+              .fields
+                %fieldset
+                  = f.text_field :email, :placeholder => "Your Email"
+                %fieldset
+                  = f.text_field :name, :placeholder => "Your Name"
+                %fieldset
+                  = f.text_area :message, :placeholder => "Your Message", :rows => 5
+                %fieldset.text-right
+                  = f.submit "Send", :class => "btn-submit"
